@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+     "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
@@ -27,6 +28,7 @@
     "validator": "^13.12.0"
   },
   "engines": {
-    "node": "20.x"
-  }
+  "node": "20.x"
+}
+
 }
