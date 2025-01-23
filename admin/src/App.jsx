@@ -13,7 +13,7 @@ import AddDoctor from './Pages/Admin/AddDoctor';
 import DoctorsList from './Pages/Admin/DoctorsList';
 import { DoctorContext } from './Context/DoctorContext';
 
-import DoctorAppointment from './Pages/Doctor/doctorAppointment';
+import DoctorAppointment from './Pages/Doctor/DoctorAppointment'
 import DoctorProfile from './Pages/Doctor/doctorProfile';
 import DoctorDashboard from './Pages/Doctor/DoctorDashboard';
 
